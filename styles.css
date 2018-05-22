@@ -1,1 +1,30 @@
 /*Main page layout*/
+
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+	text-align: center;
+}
+
+.main-nav ul,
+					a {
+	list-style-type: none;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+
+.main-content {
+	text-align: center;
+}
+
+
+.portfolio-item {
+	padding: 20px;
+}
+
+.portfolio-img {
+	max-width: 367px;
+}
