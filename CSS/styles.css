@@ -1,0 +1,50 @@
+/*Main page layout*/
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	max-width: 90%;
+	text-align: center;
+}
+
+header {
+	background: #edf0f4;
+	padding: 20px;
+}
+
+.portfolio-pic {
+	max-width: 90%;
+	margin: auto;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #000;
+}
+
+a:hover {
+	color: #7e8ea8;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	padding: 20px;
+	background: #fff;
+	margin: 5px auto;
+}
+
+
+/*Media Queries*/
+
+@media(min-width: 768px) {
+
+}
+
+
+@media(min-width: 1024px) {
+
+}
