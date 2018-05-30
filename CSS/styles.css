@@ -1,9 +1,14 @@
-/*Main page layout*/
+/*/*Main styles */ 
+
+* {
+	box-sizing: border-box;
+}
 
 body {
 	font-family: 'PT Sans', sans-serif;
-	max-width: 90%;
 	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
 header {
@@ -11,10 +16,25 @@ header {
 	padding: 20px;
 }
 
+footer{
+	background: #edf0f4;
+	padding: 20px;
+}
+
+
+
+/*Link styles*/
+
 .portfolio-pic {
 	max-width: 90%;
 	margin: auto;
 }
+
+#profile-pic {
+	  width: 80%;
+  	  margin: 0 auto;
+      margin-top: 35px;
+  }
 
 a {
 	text-decoration: none;
@@ -29,22 +49,30 @@ a:hover {
 
 ul {
 	list-style-type: none;
+	padding: 0;
 }
 
 li {
 	padding: 20px;
 	background: #fff;
 	margin: 5px auto;
+	max-width: 90%;
+}
+
+#email {
+	text-transform: lowercase;
+}
+
+/*Media Queries
+
+@media (min-width: 768px) {
+
 }
 
 
-/*Media Queries*/
+@media (min-width: 1024px) {
 
-@media(min-width: 768px) {
-
-}
+}*/
 
 
-@media(min-width: 1024px) {
-
-}
+ 
