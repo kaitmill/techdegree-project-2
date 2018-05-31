@@ -1,7 +1,8 @@
 /*/*Main styles */ 
 
-* {
-	box-sizing: border-box;
+
+*{
+  box-sizing: border-box;
 }
 
 body {
@@ -21,38 +22,49 @@ footer{
 	padding: 20px;
 }
 
+main {
+	padding: 20px;
+}
+
+.contact {
+	margin: 20px 20px 40px 20px;
+}
+
+#skills ul{
+	margin: 10px;
+	font-size: 1.1em;
+	line-height: 1.5;
+}
 
 
 /*Link styles*/
-
-.portfolio-pic {
-	max-width: 90%;
-	margin: auto;
-}
-
-#profile-pic {
-	  width: 80%;
-  	  margin: 0 auto;
-      margin-top: 35px;
-  }
 
 a {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-weight: 700;
+}
+
+a:link{
 	color: #000;
+}
+
+a:visited {
+	color: #114eaf;
 }
 
 a:hover {
 	color: #7e8ea8;
 }
 
-ul {
+
+nav ul,
+#skills ul {
 	list-style-type: none;
 	padding: 0;
 }
 
-li {
+nav li {
 	padding: 20px;
 	background: #fff;
 	margin: 5px auto;
@@ -63,16 +75,56 @@ li {
 	text-transform: lowercase;
 }
 
-/*Media Queries
+
+#name {
+	display: inline;
+	float: left;
+	padding-top: 10px;
+}
+
+.bottom-nav-links  {
+	display: inline;
+	float: right;
+	padding-top: 10px;
+}
+
+/*Image Styles*/
+
+.portfolio-pic {
+	max-width: 100%;
+	margin: auto;
+}
+
+#profile-pic {
+	  width: 80%;
+  	  margin: 0 auto;
+      margin-top: 35px;
+  }
+
+/*Media Queries*/
 
 @media (min-width: 768px) {
-
+	.portfolio-pic {
+		max-width: 90%;
+		margin: auto;
+}
+	.portfolio {
+		max-width: 45%;
+		float: right;
+	}
 }
 
 
 @media (min-width: 1024px) {
 
-}*/
+}
 
+
+
+.clearfix:after {
+    content:"";
+    display:table;
+    clear:both;
+}
 
  

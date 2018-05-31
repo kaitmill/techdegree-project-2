@@ -14,6 +14,7 @@
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#portfolio">Portfolio</a></li>
+				<li><a href="#skills">Skills</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
 		</nav>
@@ -25,46 +26,65 @@
 
 	<main>
 		<h2 id="portfolio">PORTFOLIO</h2>
-		<div>
+		<div class="portfolio clearfix">
 			<img src="images/portfolio-1.png" alt="Picture of front page of a marketing website" class="portfolio-pic">
 			<h3>Marketing Page</h3>
 			<p>This project shows the fron page of a marketing website meant for a specific business I'm interested in.</p>
 		</div>
-		<div>
+		<div class="portfolio clearfix">
 			<img src="images/portfolio-2.png" alt="Picture of a search page" class="portfolio-pic">
 			<h3>Search Page</h3>
 			<p>This project searches through a specific database to find information that the user is trying to look up.</p>
 		</div>
-		<div>
+		<div class="portfolio clearfix">
 			<img src="images/portfolio-3.png" alt="Picture of travel app" class="portfolio-pic">
 			<h3>Travel App</h3>
 			<p>This project compares travel times based on different transportation methods and tells you the best one.</p>
 		</div>
-		<div>
+		<div class="portfolio clearfix">
 			<img src="images/portfolio-4.png" alt="Picture of map of favorite spots" class="portfolio-pic">
 			<h3>Map of Favorite Spots</h3>
 			<p>This project uses mapping APIs to plot points for my favorite spots in the city for a do-it yourself walking tour.</p>
 		</div>
-		<div>
+		<div class="portfolio clearfix">
 			<img src="images/portfolio-5.png" alt="Picture of a photo gallery" class="portfolio-pic">
 			<h3>Photo Gallery</h3>
 			<p>This project shows pictures from a recent trip to the viewer and allows tem to easily nvigate through photots.</p>
 		</div>
-		<div>
+		<div class="portfolio clearfix"">
 			<img src="images/portfolio-6.png" alt="Picture of a calculator app" class="portfolio-pic">
 			<h3>Calculator</h3>
 			<p>Someone can enter in the numbers they want and press the big blue button and get the result.</p>
 		</div>
+		<section id="skills">
+			<h2>Skills</h2>
+			<p>These are skills that I am learning or plan to learn:</p>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Bootstrap</li>
+				<li>Javascript</li>
+				<li>Node.js</li>
+				<li>And so much more!</li>
+			</ul>
+		</section>
 	</main>
 
 	<footer>
-		<h4 id="contact">CONTACT</h4>
-		<p>If you're interested in chatting or want more informaion about what I've been working in, I'd love to hear from you!</p>
-		Phone <a href="tel: +1 (111) 555-1234">(111) 555-1234</a> <br>
-		Email <a href="mailto: email@yoursite.com" id="email">email@yoursite.com</a>
+		<div id="contact" class="clearfix">
+			<h4>CONTACT</h4>
+			<p>If you're interested in chatting or want more informaion about what I've been working in, I'd love to hear from you!</p><br>
+			Phone <a href="tel: +1 (111) 555-1234">(111) 555-1234</a> <br><br>
+			Email <a href="mailto: email@yoursite.com" id="email">email@yoursite.com</a>
+		</div>
 		<hr>
-		<p>Kaitlyn Miller</p>
-		<a href="#">Back to top</a>
+		<nav class="bottom-nav clearfix">
+			<div id="name"><strong>Kaitlyn Miller</strong>
+			</div>
+			<div class="bottom-nav-links">
+			<a href="#">Back to top</a>
+			</div>
+		</nav>
 	</footer>
 </body>
 </html>
